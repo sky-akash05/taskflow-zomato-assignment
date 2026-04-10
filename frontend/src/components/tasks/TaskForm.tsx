@@ -15,7 +15,7 @@ import {
   DialogClose,
 } from '@/components/ui/dialog';
 import { useUsers } from '@/hooks/useTasks';
-import type { Task, TaskStatus, TaskPriority } from '@/types';
+import type { Task } from '@/types';
 
 const taskSchema = z.object({
   title: z.string().min(1, 'Title is required').max(100, 'Title too long'),

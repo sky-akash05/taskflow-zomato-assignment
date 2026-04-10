@@ -4,7 +4,6 @@ import { Edit, Trash2, Calendar, User } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { Select } from '@/components/ui/select';
 import { useAuth } from '@/hooks/useAuth';
 import type { Task, TaskStatus, User as UserType } from '@/types';
 
@@ -16,12 +15,6 @@ interface TaskCardProps {
   onStatusChange: (id: string, status: TaskStatus) => void;
   projectOwnerId: string;
 }
-
-const statusColors: Record<TaskStatus, string> = {
-  todo: 'bg-gray-200 text-gray-800',
-  in_progress: 'bg-blue-200 text-blue-800',
-  done: 'bg-green-200 text-green-800',
-};
 
 const statusLabels: Record<TaskStatus, string> = {
   todo: 'To Do',

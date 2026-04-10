@@ -58,7 +58,7 @@ export function useUpdateTask(projectId: string) {
       // Return context with previous value
       return { previousTasks };
     },
-    onError: (err, variables, context) => {
+    onError: (_err, _variables, context) => {
       // Revert on error
       if (context?.previousTasks) {
         queryClient.setQueryData(['tasks', projectId], context.previousTasks);
