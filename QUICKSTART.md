@@ -14,7 +14,7 @@
 
 **1. Start Backend:**
 ```bash
-cd mock-api
+cd backend
 npm install && npm start
 ```
 

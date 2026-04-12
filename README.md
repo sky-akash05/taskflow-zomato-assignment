@@ -13,7 +13,7 @@ A complete task management system with authentication, project organization, and
 ## 🚀 Live Demo
 
 **Frontend:** [https://taskflow-zomato-assignment-7nnr.vercel.app](https://taskflow-zomato-assignment-7nnr.vercel.app)  
-**Backend API:** [https://taskflow-mock-api.onrender.com](https://taskflow-mock-api.onrender.com)
+**Backend API:** [https://taskflow-backend.onrender.com](https://taskflow-backend.onrender.com)
 
 **Test Credentials:**
 ```
@@ -121,7 +121,7 @@ onError: (err, variables, context) => {
 
 **1. Start Mock API:**
 ```bash
-cd mock-api
+cd backend
 npm install
 npm start
 # Runs on http://localhost:4000
@@ -238,7 +238,7 @@ http://localhost:4000
 ]
 ```
 
-Full API spec available in [mock-api/db.json](mock-api/db.json) and [mock-api/server.js](mock-api/server.js).
+Full API spec available in [backend/db.json](backend/db.json) and [backend/server.js](backend/server.js).
 
 ---
 
@@ -246,7 +246,7 @@ Full API spec available in [mock-api/db.json](mock-api/db.json) and [mock-api/se
 
 ```
 .
-├── docker-compose.yml          # Orchestrates frontend + mock-api
+├── docker-compose.yml          # Orchestrates frontend + backend
 ├── .env.example                # Environment variables template
 ├── README.md                   # This file
 │
@@ -271,7 +271,7 @@ Full API spec available in [mock-api/db.json](mock-api/db.json) and [mock-api/se
 │       ├── types/              # TypeScript interfaces
 │       └── lib/                # Utilities (cn helper)
 │
-└── mock-api/                   # json-server mock backend
+└── backend/                   # json-server mock backend
     ├── Dockerfile
     ├── package.json
     ├── server.js               # Custom auth routes
@@ -346,7 +346,7 @@ If you prefer to run locally without Docker:
 
 **Mock API:**
 ```bash
-cd mock-api
+cd backend
 npm install
 npm start
 # Runs on http://localhost:4000
