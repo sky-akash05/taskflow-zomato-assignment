@@ -23,6 +23,22 @@ Password: password123
 
 ---
 
+## 📸 Screenshots
+
+### Login Page
+![Login Page](screenshots/1-login.png)
+
+### Projects Dashboard
+![Projects List](screenshots/2-projects-list.png)
+
+### Project Detail with Tasks
+![Project Detail](screenshots/3-project-detail.png)
+
+### Mobile Responsive View
+![Mobile View](screenshots/4-mobile-responsive.png)
+
+---
+
 ## Overview
 
 **TaskFlow** is a modern, responsive task management application that allows users to:
