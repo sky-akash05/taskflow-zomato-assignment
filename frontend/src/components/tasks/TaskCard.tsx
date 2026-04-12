@@ -16,12 +16,6 @@ interface TaskCardProps {
   projectOwnerId: string;
 }
 
-const statusLabels: Record<TaskStatus, string> = {
-  todo: 'To Do',
-  in_progress: 'In Progress',
-  done: 'Done',
-};
-
 const priorityColors = {
   low: 'bg-gray-100 text-gray-700 border-gray-300',
   medium: 'bg-yellow-100 text-yellow-700 border-yellow-300',
@@ -107,15 +101,15 @@ export function TaskCard({
           <label className="text-xs font-medium text-gray-700 block mb-1">
             Status
           </label>
-          <Select
+          <select
             value={task.status}
             onChange={handleStatusChange}
-            className="w-full"
+            className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
             <option value="todo">To Do</option>
             <option value="in_progress">In Progress</option>
             <option value="done">Done</option>
-          </Select>
+          </select>
         </div>
 
         {showDeleteConfirm && (
