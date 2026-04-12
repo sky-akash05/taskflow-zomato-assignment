@@ -138,7 +138,7 @@ npm run dev
 ### Option 2: With Docker
 
 ```bash
-git clone https://github.com/sky-akash05/taskflow-zomato-assignment
+git clone https://github.com/sky-akash05/taskflow-akash-yadav
 cd taskflow-zomato-assignment
 cp .env.example .env
 docker compose up

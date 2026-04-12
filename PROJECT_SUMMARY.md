@@ -4,7 +4,7 @@
 
 **Live Demo:** [https://taskflow-zomato-assignment-7nnr.vercel.app](https://taskflow-zomato-assignment-7nnr.vercel.app)
 
-**GitHub:** [https://github.com/sky-akash05/taskflow-zomato-assignment](https://github.com/sky-akash05/taskflow-zomato-assignment)
+**GitHub:** [https://github.com/sky-akash05/taskflow-akash-yadav](https://github.com/sky-akash05/taskflow-akash-yadav)
 
 ---
 
