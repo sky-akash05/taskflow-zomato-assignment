@@ -23,7 +23,7 @@ export function useCreateTask(projectId: string) {
 
   return useMutation({
     mutationFn: (data: CreateTaskInput) => tasksApi.create(projectId, data),
-    onSuccess: (newTask) => {
+    onSuccess: () => {
       // Update all task queries for this project
       queryClient.invalidateQueries({ queryKey: ['tasks', projectId] });
       queryClient.invalidateQueries({ queryKey: ['projects', projectId] });

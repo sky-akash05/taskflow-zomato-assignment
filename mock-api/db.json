@@ -79,6 +79,18 @@
       "due_date": null,
       "created_at": "2026-04-12T02:46:16.422Z",
       "updated_at": "2026-04-12T02:46:16.422Z"
+    },
+    {
+      "id": "f02d7033-1e44-4b6d-b164-43fdeff3b58d",
+      "title": "yee",
+      "description": "yeee",
+      "status": "todo",
+      "priority": "medium",
+      "project_id": "dREkhbE",
+      "assignee_id": null,
+      "due_date": null,
+      "created_at": "2026-04-12T02:50:35.841Z",
+      "updated_at": "2026-04-12T02:50:35.841Z"
     }
   ]
 }
